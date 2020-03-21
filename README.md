@@ -1,7 +1,7 @@
 # Example Symfony Console Application
 
 ### Download
-```composer require kerrialn/ExampleConsole```
+```git clone https://github.com/Kerrialn/ExampleConsole.git```
 
 ### Run 
 The console comes with an example command, run this in your terminal:
