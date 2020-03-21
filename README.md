@@ -1,4 +1,12 @@
 # Example Symfony Console Application
+If you need a Symfony console application quickly.
+
+### Including
+- Symfony console (tweaked)
+- Easy Coding Standards
+- PHPStan
+- Rector 
+
 
 ### Download
 ```git clone https://github.com/Kerrialn/ExampleConsole.git```
