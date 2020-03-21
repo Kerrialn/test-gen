@@ -3,13 +3,6 @@
 
 namespace App\HttpKernel;
 
-
-class AutowireArrayParameterCompilerPass {
-
-    /**
-     *
-     */
-    public function __construct()
-    {
-    }
+final class AutowireArrayParameterCompilerPass
+{
 }

@@ -1,20 +1,17 @@
 <?php
 
-
 namespace App\Console\Command;
 
-
 use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symplify\PackageBuilder\Console\ShellCode;
 
-class ExampleCommand extends Command {
-
-    public const NAME = "example";
-    private $symfonyStyle;
+final class ExampleCommand extends Command
+{
+    private const NAME = 'example';
+    private SymfonyStyle $symfonyStyle;
 
     public function __construct(SymfonyStyle $style)
     {
@@ -24,7 +21,8 @@ class ExampleCommand extends Command {
 
     public function execute(InputInterface $input, OutputInterface $output): int
     {
-        $this->symfonyStyle->success("Hello World!");
+        $this->symfonyStyle->success('Hello World!');
+
         return ShellCode::SUCCESS;
     }
 
@@ -33,5 +31,4 @@ class ExampleCommand extends Command {
         $this->setName(self::NAME);
         $this->setDescription('Say hello to the world');
     }
-
 }
