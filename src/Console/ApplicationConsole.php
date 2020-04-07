@@ -5,13 +5,14 @@ declare(strict_types=1);
 namespace App\Console;
 
 use App\Console\Command\ExampleCommand;
+use App\Console\Command\GenerateCommand;
 use Symfony\Component\Console\Application;
 
 final class ApplicationConsole extends Application
 {
-    public function __construct(ExampleCommand $exampleCommand)
+    public function __construct(GenerateCommand $generateCommand)
     {
-        $this->add($exampleCommand);
-        parent::__construct('Example Console');
+        $this->add($generateCommand);
+        parent::__construct('phpUnit tests generator');
     }
 }

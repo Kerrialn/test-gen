@@ -5,6 +5,7 @@
         "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "nikic/php-parser": "^4.3",
         "symfony/console": "5.0.*",
         "symfony/dependency-injection": "^5.0",
         "symfony/dotenv": "5.0.*",
@@ -14,7 +15,8 @@
         "symfony/http-kernel": "^5.0",
         "symfony/yaml": "5.0.*",
         "symplify/autowire-array-parameter": "^7.2.8",
-        "symplify/package-builder": "^7.2.8"
+        "symplify/package-builder": "^7.2.8",
+        "symplify/smart-file-system": "^7.2"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12.3",
