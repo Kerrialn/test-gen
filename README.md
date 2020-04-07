@@ -1,17 +1,11 @@
-# Example Symfony Console Application
-If you need a Symfony console application quickly.
-
-### Including
-- Symfony console (tweaked)
-- Easy Coding Standards
-- PHPStan
-- Rector 
-
+# Test Generator
+Bored of writing fiddly phpUnit tests? 
+Well as you may have guessed from the name this is a package that will generate tests from and for your project. 
 
 ### Download
-```git clone https://github.com/Kerrialn/ExampleConsole.git```
+```composer require Kerrialn/test-gen```
 
 ### Run 
-The console comes with an example command, run this in your terminal:
-```bin/console example```
+to generate tests from your code, run: 
+```bin/tg make```
 
