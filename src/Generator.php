@@ -59,6 +59,7 @@ class Generator
                         }
 
                         if ($node instanceof Node\Stmt\ClassMethod) {
+
                         }
 
                     }
